@@ -1,0 +1,94 @@
+.spacing {
+  margin-top: 100px;
+}
+body {
+  background-color: #edd263;
+}
+
+.meal {
+  width: 300px;
+  margin-top: 50px;
+  background-color: white;
+  border-radius: 10px;
+}
+.meal-details {
+  width: 350px;
+  margin-top: 50px;
+  background-color: white;
+  border-radius: 10px;
+}
+.meal-details img {
+  width: 100%;
+}
+
+.meal img {
+  width: 100%;
+}
+.meal-name {
+  text-align: center;
+  font-size: 15px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.button-design {
+  color: #3b2d64;
+}
+.head-text {
+  color: #3b2d64;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.btn {
+  background-color: rgb(98, 0, 128);
+  color: white;
+}
+.align {
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+#display-meals {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+@media (max-width: 1025px) {
+  #display-meals {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    margin-left: 20px;
+  }
+}
+@media (max-width: 769px) {
+  #display-meals {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+    margin-left: 100px;
+  }
+}
+
+/* .errorBox {
+  background-color: #e5e5e5;
+  height: 80px;
+  margin-top: 30px;
+} */
+
+/* .errorText {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 50px;
+} */
+.searchResult {
+  text-align: center;
+  font-size: 25px;
+  padding-top: 1.3rem;
+  height: 60px;
+  font-weight: bold;
+}
+.hidden {
+  display: none !important;
+}
